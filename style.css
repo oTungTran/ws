@@ -30,6 +30,14 @@ body {
     overflow: visible;
 }
 
+.fixed-top {
+    position: fixed;
+    top: 5rem;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .top_header {
     float: left;
     width: 100%;
@@ -112,12 +120,22 @@ body {
 }
 
 .header_funtion {
-    float: left;
+    float: right;
+    margin-right: -5%;
 }
 
 .header_funtion_title {
     float: left;
     margin-left: 1.5rem;
+}
+
+.header_funtion_title i {
+    color: black;
+    transition: 0.1s all;
+}
+
+.header_funtion_title i:hover {
+    color: orange;
 }
 
 .header_funtion_title i {
@@ -323,16 +341,48 @@ body {
 }
 
 .header_product a {
+    width: 100%;
+    float: left;
     height: 5rem;
 }
 
-.header_product a img {
+.header_product a:hover .header_delete_product {
+    opacity: 1;
+}
+
+.header_infor_order {
     float: left;
-    width: 25%;
+    width: 80%;
+}
+
+.header_delete_product {
+    width: 20%;
+    float: right;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.header_delete_product i {
+    width: 140%;
+    text-align: center;
+    color: black;
+    transition: 0.3s;
+}
+
+.header_delete_product i:hover {
+    color: red;
+}
+
+.header_infor_order img {
+    float: left;
+    margin-top: 0.5rem;
+    width: 32%;
     margin-left: -1.3rem;
 }
 
 .item-name {
+    width: 53%;
+    margin-top: 1rem!important;
     font-size: 15px !important;
     color: black !important;
 }
@@ -340,14 +390,16 @@ body {
 .item-price {
     float: left;
     margin-right: 8px;
+    margin-top: 1rem!important;
     color: #1e90ff !important;
-    margin-left: -9.4rem !important;
+    margin-left: -7.5rem !important;
 }
 
 .item-quantity {
     float: right;
+    margin-top: 1rem!important;
     color: #95a5a6 !important;
-    margin-left: -5rem!important;
+    margin-left: -3rem!important;
 }
 
 .item_quantity small {
@@ -444,7 +496,8 @@ body {
 .main_page {
     float: left;
     width: 100%;
-    margin-top: 0.05rem;
+    margin-top: 10.4rem;
+    ;
     background-color: #f8f9fa;
 }
 
