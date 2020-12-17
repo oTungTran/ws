@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suggessted</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/griddemo1.css">
+    <link rel="stylesheet" href="resources/css/suggestsed.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="suggessted">
+        <div class="main_suggessted">
+            <img src="/resources/image/planet_4x.png" alt="">
+            <p>You can log in to be able to make purchases with our store membership deals or skip this step!</p>
+        </div>
+        <div class="function_suggessted">
+            <button type="button" class="btn btn-success btn_fct btn_login" data-toggle="modal" data-target="#modal_login">LOGIN</button>
+            <button type="button" class="btn btn-warning btn_fct btn_skip">SKIP</button>
+        </div>
+    </div>
+    <!-- Modal login-->
+    <div class="modal fade" id="modal_login" tabindex="-1" aria-labelledby="LoginLabel" aria-hidden="true">
+        <div class=" modal-dialog modal_login_edit">
+            <div class=" modal-content">
+                <div class="modal_login_show modal-body">
+                    <nav>
+                        <div class="nav modal_title nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active popup_login_title" id="nav-login-tab" data-toggle="tab" href="#nav-login" role="tab" aria-controls="nav-login" aria-selected="true">LOGIN</a>
+                            <a class="nav-item nav-link popup_login_title" id="nav-register-tab" data-toggle="tab" href="#nav-register" role="tab" aria-controls="nav-register" aria-selected="false">REGISTER</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-login" role="tabpanel" aria-labelledby="nav-login-tab">
+                            <div class="modal_left">
+                                <img src="/resources/image/login.png" alt=""></div>
+                            <div class="modal_right">
+                                <form class="login_form">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="forgot_pass">
+                                        <a href="">Forgot your password?</a>
+                                    </div>
+                                    <button type="signin" class="btn btn-primary">SIGN IN</button>
+                                    <div class="login_api">
+                                        <ul>
+                                            <li>
+                                                <a href=""><i class="fab fa-facebook-square"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fab fa-google"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><i class="fab fa-github"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="register tab-pane fade" id="nav-register" role="tabpanel" aria-labelledby="nav-register-tab">
+                            <div class="modal_left_register">
+                                <img src="/resources/image/login.png" alt="">
+                            </div>
+                            <div class="modal_right_register">
+                                <div class="input-group mb-3">
+                                    <span>Fullname :</span>
+                                    <input type="text" class="form-control" placeholder="Fullname" aria-label="Fullname" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span>Numberphone :</span>
+                                    <input type="text" class="form-control" placeholder="Numberphone" aria-label="Numberphone" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span>Email :</span>
+                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span>Address:</span>
+                                    <input type="text" class="form-control" placeholder="Address" aria-label="Address" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span>Birth Of Date:</span>
+                                    <input type="date" class="form-control" aria-describedby="basic-addon1">
+                                </div>
+                                <div class=" input-group mb-3">
+                                    <span>Gender:</span>
+                                    <select>
+                                       <option value="gender">Male</option>
+                                       <option value="gender">Female</option>
+                                       <option value="gender">Other</option>
+                                    </select>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span>Password:</span>
+                                    <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span>Retype Password:</span>
+                                    <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                                </div>
+                                <button type="button" class="btn btn-warning">REGISTER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

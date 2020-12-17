@@ -1,0 +1,43 @@
+.suggessted {
+    float: left;
+    width: 30%;
+    height: 360px;
+    margin-top: 10rem;
+    margin-left: 35%;
+    border: 1px solid rgb(88, 59, 59);
+    background-color: #06062b;
+    border-radius: 10px;
+}
+
+.main_suggessted {
+    float: left;
+    width: 100%;
+}
+
+.main_suggessted img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main_suggessted p {
+    float: left;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn_fct {
+    min-width: 160px;
+}
+
+.function_suggessted {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.btn_skip {
+    float: right;
+}
