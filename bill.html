@@ -18,111 +18,109 @@
 
 <body>
     <!--bill-->
-    <div class=" bill">
-        <div class="header_bill">
-            <img src="/sshoptest/resources/image/logoshopbill.png" alt="">
-            <h4 class="bill_title">INVOICE</h4>
-        </div>
-        <!-- Main bill-->
-        <div class="main_bill">
-            <div class="infor_invoice">
-                <div class="infor_invoice_left">
-                    <span>Invoice to:</span>
-                    <p class="customer_name">Tung Tran</p>
-                    <p class="customer_address">195 Tran Cung, Co Nhue, Bac Tu Liem, Ha Noi.</p>
-                </div>
-                <div class="infor_invoice_right">
-                    <h2>AMOUNT</h2>
-                    <h3 class="grandtotal_bill">
-                        <p>$</p>
-                        15000.00
-                    </h3>
-                    <p class="bill_id">Invoice# <span>11059843</span></p>
-                    <p class="bill_date">Date <span>07/11/2020</span></p>
-                </div>
+    <div class="bill">
+        <div class="show_bill">
+            <div class="bill_header">
+                <img src="/resources/image/logoshop.png" alt="">
             </div>
-            <div class="main_item">
-                <div class="bill_title_item">
-                    <table>
-                        <tbody class="item_bill_title">
-                            <tr>
-                                <td class="product_title_bill">Product</td>
-                                <td class="quantity_title_bill">Quantity</td>
-                                <td class="price_title_bill">Price</td>
-                                <td class="total_title_bill">Total</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="main_bill row">
+                <div class="main_bill_infor col-8">
+                    <div class="bill_title">
+                        <div class="main_bill-icon">
+                            <i class="far fa-check-circle"></i>
+                        </div>
+                        <div class="main_bill-title">
+                            <h4>THANK YOU FOR YOUR ORDERS</h4>
+                            <span>A confirmation email has been sent:<p>tungttbhaf180031@fpt.edu.vn</p></span>
+                            <span>Please check your email!</span>
+                        </div>
+                    </div>
+                    <div class="infor_order_bill">
+                        <div class="row">
+                            <div class="col infor-customer">
+                                <h5>INFORMATION ORDERS</h5>
+                                <span>Tran Thanh Tung</span>
+                                <span>tungttbhaf180031@fpt.edu.vn</span>
+                                <span>0387798072</span>
+                            </div>
+                            <div class="col infor-customer">
+                                <h5>INFORMATION ADDRESS</h5>
+                                <span>Tran Thanh Tung</span>
+                                <span>107 Nguyen Phong Sac, Dich Vong Hau, cau Giay, Ha Noi.</span>
+                                <span>0387798072</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col infor-customer">
+                                <h5>PAYMENT MEDTHOD</h5>
+                                <span>Payment on delivery (COD)</span>
+                                <span>Payment via PAYPAL</span>
+                            </div>
+                            <div class="col infor-customer">
+                                <h5>SHIPPING METHOD</h5>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bill_function">
+                        <button type="button" class="btn btn-success">Continue shopping</button>
+                        <button type="button" class="btn btn-warning" onclick="window.print()"><i class="fas fa-print"></i>PRINT</button>
+                    </div>
                 </div>
-                <div class="bill_item">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class="bill_item_name">Samsung Galaxy Note 20 Ultra 5G</td>
-                                <td class="bill_item_quantity"><span>3</span></td>
-                                <td class="bill_item_price"><span>1990$</span></td>
-                                <td class="bill_item_total"><span>5970$</span></td>
-                            </tr>
-                            <tr>
-                                <td class="bill_item_name">Samsung Galaxy Note 20 Ultra 5G</td>
-                                <td class="bill_item_quantity"><span>3</span></td>
-                                <td class="bill_item_price"><span>1990$</span></td>
-                                <td class="bill_item_total"><span>5970$</span></td>
+                <div class="infor_bill col-4">
+                    <div class="infor_bill_header"><span>ORDER: #</span>111111</div>
+                    <div class="infor_bill_show">
+                        <ul>
+                            <li class="list_order">
+                                <div class="img_bill"><img src="https://img.fpt.shop/w_214/h_214/f_png/cmpr_10/m_letterbox_ffffff_100/https://fptshop.com.vn/Uploads/Originals/2020/2/12/637170944168255808_ss-s20-plus-xanh-dd.png" alt=""></div>
+                                <div class="infor_product_bill">
+                                    <p>SAMSUNG </p>
+                                    <p>x<span>2</span></p>
+                                </div>
+                                <div class="total_price_bill">
+                                    <p>$<span>5000</span></p>
+                                </div>
+                            </li>
+                            <li class="list_order">
+                                <div class="img_bill"><img src="https://img.fpt.shop/w_214/h_214/f_png/cmpr_10/m_letterbox_ffffff_100/https://fptshop.com.vn/Uploads/Originals/2020/2/12/637170944168255808_ss-s20-plus-xanh-dd.png" alt=""></div>
+                                <div class="infor_product_bill">
+                                    <p>SAMSUNG Galaxy S20+</p>
+                                    <p>x<span>2</span></p>
+                                </div>
+                                <div class="total_price_bill">
+                                    <p>$<span>5000</span></p>
+                                </div>
+                            </li>
+                            <li class="list_order">
+                                <div class="img_bill"><img src="https://img.fpt.shop/w_214/h_214/f_png/cmpr_10/m_letterbox_ffffff_100/https://fptshop.com.vn/Uploads/Originals/2020/2/12/637170944168255808_ss-s20-plus-xanh-dd.png" alt=""></div>
+                                <div class="infor_product_bill">
+                                    <p>SAMSUNG </p>
+                                    <p>x<span>2</span></p>
+                                </div>
+                                <div class="total_price_bill">
+                                    <p>$<span>5000</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="infor_bill_grandTotal">
+                        <div class="total_all_pr">
+                            <p class="title_grand">Total :<span>$50000</span></p>
+                        </div>
+                        <div class="shipping_bill">
+                            <p class="title_grand">Shipping :<span>$5</span></p>
+                        </div>
+                        <div class="grandTotal_bill">
+                            <p class="title_grand">Grand total :<span>$50005</span></p>
+                        </div>
+                    </div>
+                </div>
 
-                            </tr>
-                            <tr>
-                                <td class="bill_item_name">Samsung Galaxy Note 20 Ultra 5G</td>
-                                <td class="bill_item_quantity"><span>3</span></td>
-                                <td class="bill_item_price"><span>1990$</span></td>
-                                <td class="bill_item_total"><span>5970$</span></td>
-                            </tr>
-                            <tr>
-                                <td class="bill_item_name">Samsung Galaxy Note 20 Ultra 5G</td>
-                                <td class="bill_item_quantity"><span>3</span></td>
-                                <td class="bill_item_price"><span>1990$</span></td>
-                                <td class="bill_item_total"><span>5970$</span></td>
-                            </tr>
-                            <tr>
-                                <td class="bill_item_name">Samsung Galaxy Note 20 Ultra 5G</td>
-                                <td class="bill_item_quantity"><span>3</span></td>
-                                <td class="bill_item_price"><span>1990$</span></td>
-                                <td class="bill_item_total"><span>5970$</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="price_bill">
-                <p class="subtotal_bill">SUB TOTAL <span>15000$</span></p>
-                <p class="price_ship_bill">SHIPPING <span>3$</span></p>
-                <p class="grandtotal_price_bill">GRAND TOTAL <span>15003$</span></p>
-            </div>
-            <div class="payment_method_bill">
-                <h4>PAYMENT METHOD</h4>
-                <div class="infor_payment">
-                    <ul>
-                        <li>
-                            <h1>Paypal</h1>
-                            <p>tungttbhaf180031@fpt.edu.vn</p>
-                        </li>
-                        <li>
-                            <h1>Bank account </h1>
-                            <p>123-321-123-321</p>
-                        </li>
-                        <li>
-                            <h1>Cheque</h1>
-                            <p>Information here</p>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
-        <!-- bill footer -->
-        <div class="bill_footer">
-            <h3>Thank you for business with us!</h3>
-            <h2>----------------------------------------</h2>
-        </div>
+
     </div>
+
     <!--end bill-->
 </body>
 
