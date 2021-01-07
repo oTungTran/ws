@@ -6,19 +6,65 @@
 
 .filter_categories {
     float: left;
+    width: 95%;
+    margin-top: 1rem;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    background-color: white;
 }
 
 .filter_categories h1 {
+    margin-left: 5%;
     font-size: 25px;
     padding-top: 1rem;
 }
 
+.filter_categories input {
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.filter_categories label {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.filter_left-edit {
+    padding-left: 15px!important;
+    padding-right: 0px!important;
+}
+
 .filter_right {
     float: left;
-    width: 99.7%;
-    margin-top: 0.8rem;
-    border: 1px solid #bdc3c7;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 1rem;
     border-radius: 8px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    background-color: white;
+}
+
+.filter_right-edit {
+    padding: 0 0!important;
+    width: 95%!important;
+    margin-top: 1rem;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    background-color: white;
+}
+
+.row_edit {
+    margin-right: 0!important;
 }
 
 .filter_right h1 {
@@ -59,20 +105,21 @@
 }
 
 .show_br {
-    width: 100%;
+    width: 98%;
+    margin-left: 1%;
     background-color: white;
     border-radius: 8px;
 }
 
 .show_product_brand {
-    width: 98%;
-    margin-left: 1%;
+    width: 100%;
 }
 
 .pagination_page {
     float: left;
     width: 100%;
     margin-top: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
